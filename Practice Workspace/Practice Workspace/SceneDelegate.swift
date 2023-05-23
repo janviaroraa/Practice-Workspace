@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         window.makeKeyAndVisible()
         
-        window.rootViewController = ViewController()
+        window.rootViewController = PostRequestViewController()
         self.window = window
     }
 
