@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Snapkit
+import SnapKit
 
 class PostRequestViewController: UIViewController {
     
