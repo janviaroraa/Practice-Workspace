@@ -12,33 +12,40 @@ class PostRequestViewController: UIViewController {
     
     private lazy var id: UITextField = {
         let txt = UITextField()
+        txt.translatesAutoresizingMaskIntoConstraints = false
         txt.placeholder = "Enter id"
         txt.layer.cornerRadius = 4
         txt.layer.borderWidth = 1
         txt.layer.borderColor = UIColor.black.cgColor
+        txt.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         return txt
     }()
     
     private lazy var mainTitle: UITextField = {
         let txt = UITextField()
+        txt.translatesAutoresizingMaskIntoConstraints = false
         txt.placeholder = "Enter title"
         txt.layer.cornerRadius = 4
         txt.layer.borderWidth = 1
         txt.layer.borderColor = UIColor.black.cgColor
+        txt.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         return txt
     }()
     
     private lazy var body: UITextField = {
         let txt = UITextField()
+        txt.translatesAutoresizingMaskIntoConstraints = false
         txt.placeholder = "Enter body"
         txt.layer.cornerRadius = 4
         txt.layer.borderWidth = 1
         txt.layer.borderColor = UIColor.black.cgColor
+        txt.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         return txt
     }()
     
     private lazy var button: UIButton = {
         let btn = UIButton()
+        btn.translatesAutoresizingMaskIntoConstraints = false
         btn.setTitle("Post Data", for: .normal)
         btn.setTitleColor(.black, for: .normal)
         btn.backgroundColor = .systemBlue
@@ -49,7 +56,11 @@ class PostRequestViewController: UIViewController {
     
     private lazy var stack: UIStackView = {
         let stk = UIStackView()
+        stk.translatesAutoresizingMaskIntoConstraints = false
         stk.axis = .vertical
+        stk.spacing = 20
+        stk.layoutMargins = UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 0)
+        stk.isLayoutMarginsRelativeArrangement = true
         return stk
     }()
     
@@ -66,6 +77,7 @@ class PostRequestViewController: UIViewController {
         stack.addArrangedSubview(id)
         stack.addArrangedSubview(mainTitle)
         stack.addArrangedSubview(body)
+        stack.addArrangedSubview(button)
     }
     
     private func addTargets() {
@@ -73,7 +85,29 @@ class PostRequestViewController: UIViewController {
     }
     
     private func configureLayouts() {
+        stack.snp.makeConstraints { make in
+            make.top.leading.trailing.equalToSuperview().inset(20)
+        }
         
+        id.snp.makeConstraints { make in
+            make.height.equalTo(50)
+            make.width.equalTo(100)
+        }
+        
+        mainTitle.snp.makeConstraints { make in
+            make.height.equalTo(50)
+            make.width.equalTo(100)
+        }
+        
+        body.snp.makeConstraints { make in
+            make.height.equalTo(50)
+            make.width.equalTo(100)
+        }
+        
+        button.snp.makeConstraints { make in
+            make.height.equalTo(50)
+            make.width.equalTo(100)
+        }
     }
     
     @objc private func postButtonTapped() {
