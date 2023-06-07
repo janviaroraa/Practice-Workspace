@@ -10,6 +10,7 @@
 		415E3FF82A29AB5D00C14AE9 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E3FF72A29AB5D00C14AE9 /* PostRequest.swift */; };
 		415E3FFB2A29CDE900C14AE9 /* ReverseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E3FFA2A29CDE900C14AE9 /* ReverseArray.swift */; };
 		415E3FFD2A2EF19800C14AE9 /* AP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E3FFC2A2EF19800C14AE9 /* AP.swift */; };
+		415E3FFF2A30970A00C14AE9 /* Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E3FFE2A30970A00C14AE9 /* Practice2.swift */; };
 		419095D52A2467710006CB27 /* TabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419095D42A2467710006CB27 /* TabeViewController.swift */; };
 		419095D72A2467FB0006CB27 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419095D62A2467FB0006CB27 /* TableViewCell.swift */; };
 		419095D92A246AAE0006CB27 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419095D82A246AAE0006CB27 /* DataModel.swift */; };
@@ -53,6 +54,7 @@
 		415E3FF72A29AB5D00C14AE9 /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
 		415E3FFA2A29CDE900C14AE9 /* ReverseArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseArray.swift; sourceTree = "<group>"; };
 		415E3FFC2A2EF19800C14AE9 /* AP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP.swift; sourceTree = "<group>"; };
+		415E3FFE2A30970A00C14AE9 /* Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice2.swift; sourceTree = "<group>"; };
 		419095D42A2467710006CB27 /* TabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabeViewController.swift; sourceTree = "<group>"; };
 		419095D62A2467FB0006CB27 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		419095D82A246AAE0006CB27 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				415E3FF72A29AB5D00C14AE9 /* PostRequest.swift */,
+				415E3FFE2A30970A00C14AE9 /* Practice2.swift */,
 			);
 			path = "Practice Folder";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415E3FFF2A30970A00C14AE9 /* Practice2.swift in Sources */,
 				419095D72A2467FB0006CB27 /* TableViewCell.swift in Sources */,
 				419095DB2A2472F30006CB27 /* TableViewModel.swift in Sources */,
 				41A68A732A1C8BF2002E3590 /* PostRequestViewController.swift in Sources */,
