@@ -1,0 +1,6 @@
+framework module Pods_BlackcofferAssignment_BlackcofferAssignmentUITests {
+  umbrella header "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
