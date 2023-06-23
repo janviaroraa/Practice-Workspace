@@ -8,15 +8,14 @@ target 'BlackcofferAssignment' do
   # Pods for BlackcofferAssignment
 pod 'SnapKit', '~> 5.0.0'
 
+
   target 'BlackcofferAssignmentTests' do
     inherit! :search_paths
     # Pods for testing
-pod 'SnapKit', '~> 5.0.0'
   end
 
   target 'BlackcofferAssignmentUITests' do
     # Pods for testing
-pod 'SnapKit', '~> 5.0.0'
   end
 
 end

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2640F84F0312FA2B85C68510 /* Pods_BlackcofferAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE412A0187FE6F521B55EB9 /* Pods_BlackcofferAssignmentTests.framework */; };
 		415E400D2A45A87500C14AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E400C2A45A87500C14AE9 /* AppDelegate.swift */; };
 		415E400F2A45A87500C14AE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E400E2A45A87500C14AE9 /* SceneDelegate.swift */; };
 		415E40112A45A87500C14AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E40102A45A87500C14AE9 /* ViewController.swift */; };
@@ -16,8 +15,9 @@
 		415E40242A45A87800C14AE9 /* BlackcofferAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E40232A45A87800C14AE9 /* BlackcofferAssignmentTests.swift */; };
 		415E402E2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E402D2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift */; };
 		415E40302A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E402F2A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift */; };
-		8D3DF23BA85510D0699D8F3B /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B266C494070141D15CECDE1 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */; };
-		D0CC5E79A248F35703DF2CF2 /* Pods_BlackcofferAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506A86101B7AB3FC258525C7 /* Pods_BlackcofferAssignment.framework */; };
+		41A00E12B003F2ABEBE54C68 /* Pods_BlackcofferAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BAF12BC278654AABAAD820 /* Pods_BlackcofferAssignment.framework */; };
+		61BF4F960FF8A7C6169505A6 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB30A4A92EBF8A7301FB29 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */; };
+		D0A4CEF4380D42F3A57EB56D /* Pods_BlackcofferAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02C64D3F99EEE66F56F2DBE /* Pods_BlackcofferAssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A68A77241A8519F481BE48F /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1B266C494070141D15CECDE1 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DE412A0187FE6F521B55EB9 /* Pods_BlackcofferAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB30A4A92EBF8A7301FB29 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE053AAB5119EE3A022231F /* Pods-BlackcofferAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		415E40092A45A87500C14AE9 /* BlackcofferAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackcofferAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415E400C2A45A87500C14AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		415E400E2A45A87500C14AE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +52,13 @@
 		415E40292A45A87800C14AE9 /* BlackcofferAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackcofferAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415E402D2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackcofferAssignmentUITests.swift; sourceTree = "<group>"; };
 		415E402F2A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackcofferAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		506A86101B7AB3FC258525C7 /* Pods_BlackcofferAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6999341F57BB4ECD7CACDE33 /* Pods-BlackcofferAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment.release.xcconfig"; sourceTree = "<group>"; };
-		8BCA35803A7755C9D1CA5442 /* Pods-BlackcofferAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		907CFF187648D75B30932382 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF8AFCAD08A2C3DB8FA134BA /* Pods-BlackcofferAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C97C07994357B1B3E9FFE85A /* Pods-BlackcofferAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		60AC43F693EB337F1FCD7477 /* Pods-BlackcofferAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		78638E051FADF5E44C2787B9 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81570F8CA47C2960901FC1A5 /* Pods-BlackcofferAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B5798A1EF93D218202FD9A6 /* Pods-BlackcofferAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BAF12BC278654AABAAD820 /* Pods_BlackcofferAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDE84EBAD236F9E28A03906 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D02C64D3F99EEE66F56F2DBE /* Pods_BlackcofferAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CC5E79A248F35703DF2CF2 /* Pods_BlackcofferAssignment.framework in Frameworks */,
+				41A00E12B003F2ABEBE54C68 /* Pods_BlackcofferAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2640F84F0312FA2B85C68510 /* Pods_BlackcofferAssignmentTests.framework in Frameworks */,
+				D0A4CEF4380D42F3A57EB56D /* Pods_BlackcofferAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3DF23BA85510D0699D8F3B /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework in Frameworks */,
+				61BF4F960FF8A7C6169505A6 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +96,8 @@
 				415E40222A45A87800C14AE9 /* BlackcofferAssignmentTests */,
 				415E402C2A45A87800C14AE9 /* BlackcofferAssignmentUITests */,
 				415E400A2A45A87500C14AE9 /* Products */,
-				D25597389486ED46364AE6B3 /* Pods */,
-				8F96E82F412DCF43C6A73166 /* Frameworks */,
+				5EF6A552E0998C86E9512689 /* Pods */,
+				4E0F43923C0428AADD36A2CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,25 +141,25 @@
 			path = BlackcofferAssignmentUITests;
 			sourceTree = "<group>";
 		};
-		8F96E82F412DCF43C6A73166 /* Frameworks */ = {
+		4E0F43923C0428AADD36A2CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				506A86101B7AB3FC258525C7 /* Pods_BlackcofferAssignment.framework */,
-				1B266C494070141D15CECDE1 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */,
-				2DE412A0187FE6F521B55EB9 /* Pods_BlackcofferAssignmentTests.framework */,
+				B8BAF12BC278654AABAAD820 /* Pods_BlackcofferAssignment.framework */,
+				3AFB30A4A92EBF8A7301FB29 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */,
+				D02C64D3F99EEE66F56F2DBE /* Pods_BlackcofferAssignmentTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D25597389486ED46364AE6B3 /* Pods */ = {
+		5EF6A552E0998C86E9512689 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C97C07994357B1B3E9FFE85A /* Pods-BlackcofferAssignment.debug.xcconfig */,
-				6999341F57BB4ECD7CACDE33 /* Pods-BlackcofferAssignment.release.xcconfig */,
-				907CFF187648D75B30932382 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */,
-				1A68A77241A8519F481BE48F /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */,
-				AF8AFCAD08A2C3DB8FA134BA /* Pods-BlackcofferAssignmentTests.debug.xcconfig */,
-				8BCA35803A7755C9D1CA5442 /* Pods-BlackcofferAssignmentTests.release.xcconfig */,
+				8B5798A1EF93D218202FD9A6 /* Pods-BlackcofferAssignment.debug.xcconfig */,
+				3BE053AAB5119EE3A022231F /* Pods-BlackcofferAssignment.release.xcconfig */,
+				78638E051FADF5E44C2787B9 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */,
+				BBDE84EBAD236F9E28A03906 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */,
+				81570F8CA47C2960901FC1A5 /* Pods-BlackcofferAssignmentTests.debug.xcconfig */,
+				60AC43F693EB337F1FCD7477 /* Pods-BlackcofferAssignmentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 				415E40052A45A87500C14AE9 /* Sources */,
 				415E40062A45A87500C14AE9 /* Frameworks */,
 				415E40072A45A87500C14AE9 /* Resources */,
-				4F98CA6CD96E989F121DC33D /* [CP] Embed Pods Frameworks */,
+				1C1B2C9E14AC758F67A0BF56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,7 +194,6 @@
 				415E401B2A45A87800C14AE9 /* Sources */,
 				415E401C2A45A87800C14AE9 /* Frameworks */,
 				415E401D2A45A87800C14AE9 /* Resources */,
-				1FCC684BD11500A11F72F3FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,21 +312,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1FCC684BD11500A11F72F3FB /* [CP] Embed Pods Frameworks */ = {
+		1C1B2C9E14AC758F67A0BF56 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2101B7AD8113C6921CDE8239 /* [CP] Check Pods Manifest.lock */ = {
@@ -350,23 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F98CA6CD96E989F121DC33D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferAssignment/Pods-BlackcofferAssignment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A78723C07F83165EB2A025F4 /* [CP] Check Pods Manifest.lock */ = {
@@ -586,7 +568,7 @@
 		};
 		415E40342A45A87800C14AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C97C07994357B1B3E9FFE85A /* Pods-BlackcofferAssignment.debug.xcconfig */;
+			baseConfigurationReference = 8B5798A1EF93D218202FD9A6 /* Pods-BlackcofferAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -614,7 +596,7 @@
 		};
 		415E40352A45A87800C14AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6999341F57BB4ECD7CACDE33 /* Pods-BlackcofferAssignment.release.xcconfig */;
+			baseConfigurationReference = 3BE053AAB5119EE3A022231F /* Pods-BlackcofferAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -642,7 +624,7 @@
 		};
 		415E40372A45A87800C14AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF8AFCAD08A2C3DB8FA134BA /* Pods-BlackcofferAssignmentTests.debug.xcconfig */;
+			baseConfigurationReference = 81570F8CA47C2960901FC1A5 /* Pods-BlackcofferAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,7 +645,7 @@
 		};
 		415E40382A45A87800C14AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BCA35803A7755C9D1CA5442 /* Pods-BlackcofferAssignmentTests.release.xcconfig */;
+			baseConfigurationReference = 60AC43F693EB337F1FCD7477 /* Pods-BlackcofferAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -684,7 +666,7 @@
 		};
 		415E403A2A45A87800C14AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 907CFF187648D75B30932382 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */;
+			baseConfigurationReference = 78638E051FADF5E44C2787B9 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -703,7 +685,7 @@
 		};
 		415E403B2A45A87800C14AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A68A77241A8519F481BE48F /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */;
+			baseConfigurationReference = BBDE84EBAD236F9E28A03906 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

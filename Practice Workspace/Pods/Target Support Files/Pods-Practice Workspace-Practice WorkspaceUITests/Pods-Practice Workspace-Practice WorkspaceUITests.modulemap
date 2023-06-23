@@ -1,6 +1,0 @@
-framework module Pods_Practice_Workspace_Practice_WorkspaceUITests {
-  umbrella header "Pods-Practice Workspace-Practice WorkspaceUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
