@@ -15,6 +15,7 @@
 		415E40242A45A87800C14AE9 /* BlackcofferAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E40232A45A87800C14AE9 /* BlackcofferAssignmentTests.swift */; };
 		415E402E2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E402D2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift */; };
 		415E40302A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E402F2A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift */; };
+		415E403F2A45AD8A00C14AE9 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E403E2A45AD8A00C14AE9 /* ProfileTableViewCell.swift */; };
 		41A00E12B003F2ABEBE54C68 /* Pods_BlackcofferAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BAF12BC278654AABAAD820 /* Pods_BlackcofferAssignment.framework */; };
 		61BF4F960FF8A7C6169505A6 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB30A4A92EBF8A7301FB29 /* Pods_BlackcofferAssignment_BlackcofferAssignmentUITests.framework */; };
 		D0A4CEF4380D42F3A57EB56D /* Pods_BlackcofferAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02C64D3F99EEE66F56F2DBE /* Pods_BlackcofferAssignmentTests.framework */; };
@@ -52,6 +53,7 @@
 		415E40292A45A87800C14AE9 /* BlackcofferAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackcofferAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415E402D2A45A87800C14AE9 /* BlackcofferAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackcofferAssignmentUITests.swift; sourceTree = "<group>"; };
 		415E402F2A45A87800C14AE9 /* BlackcofferAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackcofferAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		415E403E2A45AD8A00C14AE9 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		60AC43F693EB337F1FCD7477 /* Pods-BlackcofferAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		78638E051FADF5E44C2787B9 /* Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests/Pods-BlackcofferAssignment-BlackcofferAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81570F8CA47C2960901FC1A5 /* Pods-BlackcofferAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferAssignmentTests/Pods-BlackcofferAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				415E400C2A45A87500C14AE9 /* AppDelegate.swift */,
 				415E400E2A45A87500C14AE9 /* SceneDelegate.swift */,
 				415E40102A45A87500C14AE9 /* ViewController.swift */,
+				415E403E2A45AD8A00C14AE9 /* ProfileTableViewCell.swift */,
 				415E40152A45A87800C14AE9 /* Assets.xcassets */,
 				415E40172A45A87800C14AE9 /* LaunchScreen.storyboard */,
 				415E401A2A45A87800C14AE9 /* Info.plist */,
@@ -403,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				415E40112A45A87500C14AE9 /* ViewController.swift in Sources */,
+				415E403F2A45AD8A00C14AE9 /* ProfileTableViewCell.swift in Sources */,
 				415E400D2A45A87500C14AE9 /* AppDelegate.swift in Sources */,
 				415E400F2A45A87500C14AE9 /* SceneDelegate.swift in Sources */,
 			);

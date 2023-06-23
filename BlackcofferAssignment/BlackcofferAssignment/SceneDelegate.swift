@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         window.makeKeyAndVisible()
         
-        window.rootViewController = ViewController()
+        window.rootViewController = JoinAsViewController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
