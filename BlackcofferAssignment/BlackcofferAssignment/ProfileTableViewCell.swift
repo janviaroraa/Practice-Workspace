@@ -16,16 +16,16 @@ class ProfileTableViewCell: UITableViewCell {
         let stk = UIStackView()
         stk.translatesAutoresizingMaskIntoConstraints = false
         stk.axis = .horizontal
+        stk.layer.borderColor = UIColor.black.cgColor
+        stk.layer.borderWidth = 1
+        stk.layer.cornerRadius = 15
         return stk
     }()
     
     lazy var image: UIImageView = {
         let img = UIImageView()
         img.translatesAutoresizingMaskIntoConstraints = false
-        img.image = UIImage(systemName: "archivebox")
-        img.layer.borderColor = UIColor.blue.cgColor
-        img.layer.borderWidth = 1
-        img.layer.cornerRadius = 4
+        img.tintColor = .blue
         return img
     }()
     
@@ -75,7 +75,6 @@ class ProfileTableViewCell: UITableViewCell {
         titleAndDescStack.addArrangedSubview(descLabel)
         
         avatarAndTextStack.setCustomSpacing(10, after: image)
-        titleAndDescStack.setCustomSpacing(20, after: tileLabel)
     }
     
     private func addLayouts() {

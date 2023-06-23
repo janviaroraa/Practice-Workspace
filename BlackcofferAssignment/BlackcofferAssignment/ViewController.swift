@@ -23,7 +23,7 @@ class JoinAsViewController: UIViewController {
     ]
     
     private let images = [
-        "person.fill.checkmark",
+        "person.2.fill",
         "handbag",
         "archivebox"
     ]
@@ -106,12 +106,20 @@ extension JoinAsViewController: UITableViewDataSource, UITableViewDelegate {
         
         cell.tileLabel.text = title
         cell.descLabel.text = description
-        cell.image.image = UIImage(named: imageName)
+        cell.image.image = UIImage(systemName: imageName)
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return UIView()  
     }
 }
