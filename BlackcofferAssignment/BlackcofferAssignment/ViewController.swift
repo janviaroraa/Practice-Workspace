@@ -120,6 +120,21 @@ extension JoinAsViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        return UIView()  
+        return UIView()
+    }
+}
+
+class Solution {
+    func totalCost(_ costs: [Int], _ k: Int, _ candidates: Int) -> Int {
+        if candidates == 0 || costs.count == 0 || k == 0 {
+            return 0
+        }
+        
+        var ans: Int = 0
+        var newArray = costs.sorted()
+        for i in 0...candidates-1 {
+            ans += newArray[i]
+        }
+        return ans
     }
 }
